@@ -8,5 +8,5 @@
 7. run the command to your terminal =>    docker build -t yourdockerid/dockerapi
 8. run the command to your terminal =>  docker run -p 8080:80 yourdockerid/dockerapi
 9. if you want to push to your docker repository, then run the command to your terminal => docker push smhafizurrahman/dockerapi
-
- 
+10. After adding model and update Customer model and context
+ 11. Execute dotnet ef migrations add CustomerModel  
