@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MicroserviceProject\\Dotnet_Docker_tutorial\\DockerAPI\\DockerAPI.csproj": {}
+    "C:\\MicroserviceProject\\Github_Public_Self\\dockerapi\\DockerAPI.csproj": {}
   },
   "projects": {
-    "C:\\MicroserviceProject\\Dotnet_Docker_tutorial\\DockerAPI\\DockerAPI.csproj": {
+    "C:\\MicroserviceProject\\Github_Public_Self\\dockerapi\\DockerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MicroserviceProject\\Dotnet_Docker_tutorial\\DockerAPI\\DockerAPI.csproj",
+        "projectUniqueName": "C:\\MicroserviceProject\\Github_Public_Self\\dockerapi\\DockerAPI.csproj",
         "projectName": "DockerAPI",
-        "projectPath": "C:\\MicroserviceProject\\Dotnet_Docker_tutorial\\DockerAPI\\DockerAPI.csproj",
+        "projectPath": "C:\\MicroserviceProject\\Github_Public_Self\\dockerapi\\DockerAPI.csproj",
         "packagesPath": "C:\\Users\\hafiz\\.nuget\\packages\\",
-        "outputPath": "C:\\MicroserviceProject\\Dotnet_Docker_tutorial\\DockerAPI\\obj\\",
+        "outputPath": "C:\\MicroserviceProject\\Github_Public_Self\\dockerapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,22 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
