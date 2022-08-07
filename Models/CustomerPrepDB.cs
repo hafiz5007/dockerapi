@@ -38,6 +38,8 @@ namespace DockerAPI.Models
                     new Customer(){FirstName = "David 6",  LastName = "Backhum 6", Email = "David6@gmail.com", CreationDate = DateTime.UtcNow, MobileNumber="44013232555522", Remarks="Migration"}
                 );
 
+                customerContext.SaveChanges();
+
             }
             else 
             {

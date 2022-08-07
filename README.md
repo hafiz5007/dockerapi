@@ -14,3 +14,4 @@
 13. Then execute =>  dotnet build , check your MS SQL server, the database and customer table will create automatically and check the demo data in the table 
 14. Then Exxecute for the docker run =>  docker build -t yourdockerid/dockerapi .
 15. docker run -p 8080:80 yourdockerid/dockerapi
+16.  docker-compose up 

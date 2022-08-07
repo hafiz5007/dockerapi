@@ -13,6 +13,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // MS SQL Server connection 
+////* "sqlserver": "Data Source=DESKTOP-H94U3TO; Initial Catalog=CustomerDB; User Id=sa; Password=sa363975***!!!;" */
+// Upload to docker need change sql server name
+//"sqlserver": "Data Source=ms-sql-server; Initial Catalog=CustomerDB; User Id=sa; Password=sa363975***!!!;" 
 
 var connectionString = builder.Configuration.GetConnectionString("sqlserver");
  //builder.Services.AddDbContext<CustomerContext>(options=> 
@@ -42,5 +45,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
 CustomerPrepDB.Prepopulation(app);
+
+app.Run();
